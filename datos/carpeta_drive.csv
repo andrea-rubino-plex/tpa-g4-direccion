@@ -1,0 +1,36 @@
+proyecto_id,documento,tipo,ultima_modificacion,dueno_id
+P-01,Acta de cierre - Portal de proveedores.md,acta_cierre,2026-11-09,U11
+P-01,Registro de decisiones - Portal de proveedores.md,registro_decisiones,2026-10-31,U11
+P-01,Manual de uso - Portal de proveedores.md,manual,2026-10-31,U11
+P-01,Plan del proyecto - Portal de proveedores.md,plan,2026-11-11,U11
+P-02,Acta de cierre - Tablero de ventas.md,acta_cierre,2026-11-02,U11
+P-02,Manual de uso - Tablero de ventas.md,manual,2026-11-15,U11
+P-02,Plan del proyecto - Tablero de ventas.md,plan,2026-11-02,U11
+P-03,Manual de uso - Rutas de reparto.md,manual,2026-09-17,U04
+P-03,Plan del proyecto - Rutas de reparto.md,plan,2026-09-15,U04
+P-04,Acta de cierre - Plan de capacitación 2026.md,acta_cierre,2026-11-13,U12
+P-04,Registro de decisiones - Plan de capacitación 2026.md,registro_decisiones,2026-11-04,U12
+P-04,Plan del proyecto - Plan de capacitación 2026.md,plan,2026-11-02,U12
+P-05,Registro de decisiones - Inventario de repuestos.md,registro_decisiones,2025-03-14,
+P-06,Acta de cierre - Política de gastos.md,acta_cierre,2026-11-08,U06
+P-06,Registro de decisiones - Política de gastos.md,registro_decisiones,2026-11-13,U06
+P-06,Plan del proyecto - Política de gastos.md,plan,2026-11-21,U06
+P-07,Acta de cierre - Encuesta de clima.md,acta_cierre,2026-11-10,U12
+P-07,Registro de decisiones - Encuesta de clima.md,registro_decisiones,2026-11-08,U12
+P-07,Plan del proyecto - Encuesta de clima.md,plan,2026-11-07,U12
+P-08,Acta de cierre - Migración de correo.md,acta_cierre,2026-10-21,U10
+P-08,Registro de decisiones - Migración de correo.md,registro_decisiones,2026-11-02,U10
+P-08,Manual de uso - Migración de correo.md,manual,2026-11-04,U10
+P-08,Plan del proyecto - Migración de correo.md,plan,2026-10-27,U10
+P-09,Registro de decisiones - Piloto de renovación de contratos.md,registro_decisiones,2026-11-19,U09
+P-09,Plan del proyecto - Piloto de renovación de contratos.md,plan,2026-11-20,U09
+P-10,Acta de cierre - Auditoría de accesos.md,acta_cierre,2026-10-29,U10
+P-10,Registro de decisiones - Auditoría de accesos.md,registro_decisiones,2026-11-06,U10
+P-10,Plan del proyecto - Auditoría de accesos.md,plan,2026-11-09,U10
+P-11,Plan del proyecto - Laboratorio de ideas.md,plan,2026-10-06,U14
+P-12,Acta de cierre - Encuesta de clima laboral 2026.md,acta_cierre,2026-11-07,U12
+P-12,Registro de decisiones - Encuesta de clima laboral 2026.md,registro_decisiones,2026-11-08,U12
+P-12,Plan del proyecto - Encuesta de clima laboral 2026.md,plan,2026-11-01,U12
+P-13,Registro de decisiones - Plataforma de reclamos.md,registro_decisiones,2026-11-10,U08
+P-13,Plan del proyecto - Plataforma de reclamos.md,plan,2026-11-16,U08
+P-14,Plan del proyecto - Renovación de flota.md,plan,2026-02-10,U03

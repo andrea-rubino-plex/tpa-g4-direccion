@@ -1,0 +1,15 @@
+proyecto_id,nombre,estado,area_origen,area_destino,responsable_id,fecha_fin_plan,avance_pct,presupuesto_millones,gastado_millones,jira_clave,ultima_actividad
+P-01,Portal de proveedores,por cerrar,TI,Operaciones,U11,2026-09-30,100,40,38,ARR-101,2026-11-18
+P-02,Tablero de ventas,por cerrar,TI,Comercial,U11,2026-10-15,95,25,24,ARR-102,2026-11-20
+P-03,Rutas de reparto,por cerrar,Operaciones,Comercial,U04,2026-10-31,80,55,50,ARR-103,2026-10-02
+P-04,Plan de capacitación 2026,por cerrar,Personas,Personas,U12,2026-11-15,100,8,7,ARR-104,2026-11-19
+P-05,Inventario de repuestos,por cerrar,Operaciones,Operaciones,,2026-08-31,90,30,29,ARR-105,2026-08-20
+P-06,Política de gastos,por cerrar,Finanzas,Planificación,U06,2026-12-20,100,12,6,ARR-106,2026-11-21
+P-07,Encuesta de clima,por cerrar,Personas,Planificación,U12,2026-11-15,100,10,9,ARR-107,2026-11-17
+P-08,Migración de correo,por cerrar,TI,Operaciones,U10,2026-09-15,100,60,71,ARR-108,2026-11-05
+P-09,Piloto de renovación de contratos,por cerrar,Comercial,Comercial,U09,2026-10-31,85,20,19,ARR-109,2026-11-22
+P-10,Auditoría de accesos,por cerrar,TI,,U10,2026-11-20,100,15,14,ARR-110,2026-11-12
+P-11,Laboratorio de ideas,por cerrar,Innovación,Innovación,U14,2026-09-30,70,18,12,ARR-111,2026-10-25
+P-12,Encuesta de clima laboral 2026,por cerrar,Personas,Planificación,U12,2026-11-15,100,10,9,ARR-112,2026-11-17
+P-13,Plataforma de reclamos,en curso,Comercial,TI,U08,2027-03-31,45,70,28,ARR-113,2026-11-23
+P-14,Renovación de flota,pausado,Operaciones,Finanzas,U03,2026-06-30,35,120,40,ARR-114,2026-02-10

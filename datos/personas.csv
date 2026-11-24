@@ -1,0 +1,15 @@
+persona_id,rol,area,estado,fecha_estado,fecha_salida
+U01,jefe de planificación,Planificación,activo,,
+U02,analista de planificación,Planificación,activo,,
+U03,jefa de operaciones,Operaciones,activo,,
+U04,coordinador de operaciones,Operaciones,licencia,2027-01-10,
+U05,analista de operaciones,Operaciones,prueba,2026-09-15,
+U06,jefa de finanzas,Finanzas,activo,,
+U07,analista de finanzas,Finanzas,activo,,
+U08,jefe comercial,Comercial,activo,,
+U09,ejecutiva comercial senior,Comercial,activo,,2026-12-04
+U10,jefa de TI,TI,activo,,
+U11,desarrollador,TI,activo,,
+U12,jefe de personas,Personas,activo,,
+U13,analista de personas,Personas,prueba,2026-11-02,
+U14,gerente de innovación,Innovación,desvinculado,2026-10-31,

@@ -1,0 +1,21 @@
+pendiente_id,proyecto_id,descripcion,responsable_id,prioridad,estado,jira_clave,vence
+PD-001,P-01,Capacitar a dos usuarios clave,U11,media,cerrado,ARR-1011,2026-10-30
+PD-002,P-01,Revisar el contrato de soporte del proveedor,U11,media,abierto,ARR-1012,2027-01-15
+PD-003,P-02,Corregir el cálculo de comisiones del tablero,U11,alta,abierto,ARR-1021,2026-11-10
+PD-004,P-02,Documentar las fuentes de datos,U11,media,cerrado,ARR-1022,2026-11-05
+PD-005,P-03,Capacitar a los conductores en la nueva ruta,U04,media,abierto,ARR-1031,2026-12-10
+PD-006,P-03,Actualizar el mapa de zonas,,baja,abierto,,2026-12-15
+PD-007,P-04,Subir el calendario de cursos a la intranet,U12,baja,abierto,ARR-1041,2026-12-05
+PD-008,P-05,Contar el stock de la bodega sur,,media,abierto,ARR-1051,2026-09-30
+PD-009,P-05,Etiquetar los repuestos nuevos,,baja,abierto,,2026-10-15
+PD-010,P-06,Publicar la política en la intranet,U06,baja,cerrado,ARR-1061,2026-11-18
+PD-011,P-07,Presentar los resultados a la gerencia,U12,baja,abierto,,2026-12-12
+PD-012,P-08,Apagar el servidor antiguo,U10,media,abierto,ARR-1081,2026-12-01
+PD-013,P-09,Esperar la firma del cliente piloto,U09,alta,bloqueado,ARR-1091,2027-01-31
+PD-014,P-09,Documentar el formato del contrato renovado,U09,media,abierto,ARR-1092,2026-12-02
+PD-015,P-10,Archivar el informe de accesos,U10,baja,abierto,ARR-1101,2026-12-10
+PD-016,P-10,Cerrar las cuentas de prueba,U10,media,cerrado,ARR-1102,2026-11-12
+PD-017,P-11,Ordenar las ideas del laboratorio,U14,media,abierto,,2026-11-30
+PD-018,P-12,Presentar los resultados a la gerencia,U12,baja,abierto,ARR-1121,2026-12-12
+PD-019,P-13,Definir el flujo de escalamiento de reclamos,U08,alta,abierto,ARR-1131,2026-12-20
+PD-020,P-14,Decidir qué hacer con la renovación de flota,,media,abierto,ARR-1141,2026-07-31
