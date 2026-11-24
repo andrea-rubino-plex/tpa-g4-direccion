@@ -7,15 +7,17 @@ Su proyecto: decidir qué hacer con los 14 proyectos de `datos/proyectos.csv` an
 | Minutos | Fase |
 |---|---|
 | 0 a 6 | Tu espacio |
-| 6 a 14 | Calentamiento: poda el CLAUDE.md |
-| 14 a 27 | **Fase 1: autores** |
-| 27 a 37 | **Fase 2: revisores** |
-| 37 a 53 | **Fase 3: dueños** |
-| 53 a 55 | Cierre |
+| 6 a 13 | Calentamiento: poda el CLAUDE.md (6 a 8 minutos, **opcional**) |
+| 13 a 26 | **Fase 1: autores** (13) |
+| 26 a 36 | **Fase 2: revisores** (10) |
+| 36 a 52 | **Fase 3: dueños** (16) |
+| 52 a 55 | Cierre (2 a 4) |
+
+**Cada pedido a Claude tarda de 1 a 4 minutos en la web.** No esperen mirando la pantalla: mientras Claude trabaja, lean lo que ya escribió o preparen lo siguiente. **Si falta tiempo, esto va primero:** la fase 1 (su pull request), la fase 2 (una revisión con veredicto) y el traspaso de la fase 3. **Esto se recorta primero:** el calentamiento, el segundo conflicto, la sesión nueva del traspaso y `proyecto.md`.
 
 ## Tu espacio (6 minutos si ya está listo, 8 a 10 si no)
-Los pasos 1 a 3 bloquean todo lo demás. **Háganlos antes del taller** y en el taller solo queda el paso 4. Si no los hicieron, tomen 8 a 10 minutos y acorten el calentamiento a la mitad.
-1. **Una persona del grupo** pulsa **Use this template → Create a new repository**, ponle el nombre de tu grupo y déjalo **público**. En Settings → Collaborators invita a las demás. Esa persona es la dueña del repositorio.
+Los pasos 1 a 3 bloquean todo lo demás. **Háganlos al menos 48 horas antes del taller** y en el taller solo queda el paso 4. Quien dicta pide el día anterior que cada persona confirme en el chat que aceptó la invitación, y activa el Plan B para quien no lo hizo. Lista de verificación de cinco líneas: ¿aceptaste la invitación? ¿tienes cuenta de GitHub? ¿conectaste GitHub en `claude.ai/code`? ¿ves el repositorio ahí? ¿Claude te responde en esa pantalla? Si no hicieron los pasos 1 a 3, tomen 8 a 10 minutos y acorten el calentamiento a la mitad.
+1. **Una persona del grupo** abre la plantilla `https://github.com/nicorivas/tpa-g4-direccion`, pulsa **Use this template → Create a new repository**, ponle el nombre de tu grupo y déjalo **público**. En Settings → Collaborators invita a las demás. Esa persona es la dueña del repositorio.
 2. **Cada colaboradora acepta la invitación**, desde el correo o desde el enlace `github.com/<dueña>/<repo>/invitations`. Sin aceptarla, no puede abrir ramas ni pull requests.
 3. **La dueña instala la app de Claude para GitHub en ese repositorio**, desde `claude.ai/code` o desde Settings → Integrations. Después, **cada persona conecta su cuenta de GitHub** en `claude.ai/code`.
 4. **Todas** abren el repositorio en `claude.ai/code` y piden: *«Lee este proyecto y dime en cinco líneas qué problema resuelve, qué archivos hay y qué reglas debo respetar.»*
@@ -30,14 +32,14 @@ Los pasos 1 a 3 bloquean todo lo demás. **Háganlos antes del taller** y en el 
   
   Solo se leen los `.md` y `.csv` reales. Los Docs y Sheets nativos no los lee Claude desde la carpeta.
 
-## Calentamiento: poda el CLAUDE.md (8 minutos)
+## Calentamiento: poda el CLAUDE.md (6 a 8 minutos, opcional si falta tiempo)
 Cada persona, por su lado, pide: *«Dime qué de este archivo puedes deducir del código y las carpetas, y propón la versión más resumida posible, con solo lo que una sesión nueva, sin memoria, necesita saber. No modifiques el archivo.»*
 Comparen en el grupo: ¿qué reglas conservó cada versión? Las que nadie puede deducir (quién aprueba, la regla sin excepciones, los datos permitidos, la rama y el pull request) tienen que estar.
 
 ## Fase 1: Autores (13 minutos)
 Las reglas 1 y 2 chocan: el plazo y la ficha completa no pueden ir primero las dos. **Cada persona elige una opción distinta**, la resuelve en su propia rama y abre su propio pull request:
 - **Opción 1, plazo primero:** todo proyecto vencido se cierra este trimestre, y lo que falta pasa como pendiente al receptor, con nombre y fecha.
-- **Opción 2, ficha primero:** no se cierra nada hasta que su ficha esté completa, y lo vencido se mantiene con una fecha nueva.
+- **Opción 2, ficha primero:** no se cierra nada hasta que su ficha esté completa, y lo vencido se mantiene con una fecha nueva. Define también cómo se registra el «aceptó» y el «recibió la ficha» (quién lo escribe y dónde) y qué proyectos pasan a «cerrar» cuando esas líneas existan. No basta con dejar todo en «mantener».
 - **Opción 3, riesgo primero:** se cierran ahora solo los proyectos de riesgo bajo (sin pendientes altos, sin sobregasto, con documentos). Los demás quedan con un plan de cierre fechado.
 - **Opción 4, la tuya:** define la prioridad que te parezca mejor y explícala.
 
@@ -52,7 +54,7 @@ Cada persona revisa el pull request de **otra**, en círculo: la primera revisa 
 
 Pide: *«Lee este pull request y dime si cambia solo lo que se pidió, si hay información que no debería estar y si se entiende sin quien lo escribió. Corre verificar.py y dime qué problemas hay, incluso los que el verificador no detecta. Deja tu revisión como comentario del pull request, con un veredicto: aprobar, pedir cambios o no aprobar.»*
 
-Revisa también con `REVIEW.md`, que ahora tiene seis puntos. Pasar el verificador no basta.
+Revisa también con `REVIEW.md`, que tiene cinco puntos: datos, condiciones, decisión, alcance y traspaso. Pasar el verificador no basta.
 
 ## Fase 3: Dueños (16 minutos, todos juntos)
 Ahora el grupo decide como dueño del repositorio. En grupos de dos, si hay empate, decide quien dicta o la dueña del repositorio.
@@ -60,14 +62,22 @@ Ahora el grupo decide como dueño del repositorio. En grupos de dos, si hay empa
 **Antes de votar (1 minuto, sin Claude).** Cada dueño escribe en el chat dos números: *«problemas que dio verificar.py: N»* y *«problemas que encontró mi revisor: M»*. Comparen. Luego votan el pull request a aceptar: gana el que dejó menos problemas sin resolver.
 
 1. **Aceptar (2 minutos).** Lean las revisiones y acepten el pull request que ganó con el botón **Merge** de GitHub: aceptar lo hace una persona.
-2. **Un conflicto (6 minutos).** Los demás pull requests chocan ahora con `main`. Abran uno en `claude.ai/code` y pidan: *«Explícame qué cambió cada rama y propón cómo unirlas. No apliques nada hasta que yo elija.»* Decidan como grupo y digan: *«Elijo la opción … y completa el merge con su commit. Corre verificar.py.»* Resuelvan solo uno. Lo que quede se anota como decisión pendiente para el jefe de planificación. **No recarguen la página ni abran una sesión nueva durante el conflicto:** «Elijo la opción …» solo funciona en la misma sesión.
-3. **Traspaso (7 minutos).** Pidan: *«Escribe traspaso.md con las seis preguntas a partir de lo que hicimos hoy, en una rama nueva. Haz commit, abre un pull request y deja el enlace. Al final marca cuál de las seis costó más responder y cuál no se pudo responder con lo que hay en el repositorio.»*
-   Mientras Claude escribe, repártanse las seis preguntas y llenen a mano, bajo cada una, **«Evidencia en el repositorio»** y **«Decisión del grupo»** (30 segundos por pregunta). Cada pregunta necesita un enlace a un archivo, un pull request o una línea de `datos/`. Si no hay, escriban «no hay».
-   Pruébenlo: *«Abre una sesión nueva sobre la rama del traspaso, o haz Merge primero y ábrela sobre main.»* Ahí pidan: *«Lee CLAUDE.md y traspaso.md y dime cuál es el siguiente paso y qué no debo tocar.»*
+2. **Un conflicto (5 minutos).** Los demás pull requests chocan ahora con `main`. Abran uno en `claude.ai/code` y pidan: *«Explícame qué cambió cada rama y propón cómo unirlas. No apliques nada hasta que yo elija.»* Decidan como grupo y digan: *«Elijo la opción … y completa el merge con su commit. Corre verificar.py. Responde en español.»* Resuelvan solo uno; el segundo, si sobra tiempo. Lo que quede se anota como decisión pendiente para el jefe de planificación. **No recarguen la página ni abran una sesión nueva durante el conflicto:** «Elijo la opción …» solo funciona en la misma sesión.
+3. **Traspaso (6 minutos).** Una persona pide: *«Escribe traspaso.md a partir de lo que hicimos hoy, con estas cinco partes: qué cambió, qué quedó pendiente, qué decidimos y por qué, qué no hay que tocar y cuál es el siguiente paso. Hazlo en una rama nueva, haz commit, abre un pull request y deja el enlace.»* Nadie edita `traspaso.md` a mano: si el grupo quiere cambiar algo, lo dicta en el chat de la sesión («Anota en traspaso.md, bajo qué decidimos y por qué, esta decisión: …»).
+   Si sobra tiempo, pruébenlo con otra persona: *«Abre una sesión nueva sobre la rama del traspaso, o haz Merge primero y ábrela sobre main.»* Ahí pide: *«Lee CLAUDE.md y traspaso.md y dime cuál es el siguiente paso y qué no debo tocar.»*
+4. **Las seis preguntas (2 minutos).** Cada persona escribe en el chat **una línea** que conteste una de las seis preguntas del equipo con IA, con lo que vivió hoy y de modo que no se repita con otra persona:
+   - **Responsabilidad:** ¿quién responde por cada tarea y por cada agente?
+   - **Acceso:** ¿quién y qué agente puede ver y cambiar cada archivo?
+   - **Coordinación:** ¿cómo evitamos que el trabajo de unos sobrescriba el de otros?
+   - **Calidad:** ¿cómo sabemos que lo que entra a la versión oficial está bien?
+   - **Visibilidad:** ¿cómo se entera el resto de lo que se hizo y de lo que sigue?
+   - **Riesgo:** ¿qué acciones delicadas requieren a una persona autorizada?
+
+   Ejemplo: *«Calidad: mi revisor encontró 7 problemas que verificar.py no vio.»* Si una pregunta no la pudieron responder con lo que hay en el repositorio, esa es la que se lleva al cierre.
 
 Si sobra tiempo, fuera del reparto: *«Completa proyecto.md con el problema y para quién es. Para «cómo se mide», propón una métrica que se pueda calcular con datos/, calcula su valor de hoy y propón una meta. Pregúntame lo que falte.»*
 
-## Cierre (2 minutos)
+## Cierre (2 a 4 minutos)
 Peguen en el chat el enlace de su repositorio y dos frases:
-- La decisión que le llevarían al jefe de planificación.
+- Elijan uno de **P-09, P-11, P-04 o P-08** y escriban en una frase qué decide el jefe de planificación, qué pasa si no decide antes del 4-dic y quién se lo lleva.
 - «La pregunta que nos quedó sin respuesta es…», y dicen cuál de las seis: responsabilidad, acceso, coordinación, calidad, visibilidad o riesgo.

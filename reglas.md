@@ -1,6 +1,6 @@
 # Reglas de cierre y traspaso de proyectos
 
-La ficha de cierre y traspaso (`traspaso.md`) responde las seis preguntas del equipo con IA (responsabilidad, acceso, coordinación, calidad, visibilidad y riesgo) y deja dicho qué no hay que tocar y cuál es el siguiente paso.
+La ficha de cierre y traspaso (`traspaso.md`) tiene cinco partes: qué cambió, qué quedó pendiente, qué decidimos y por qué, qué no hay que tocar y cuál es el siguiente paso.
 
 Definiciones para la regla 2: **aceptó** quiere decir que hay una línea en `traspaso.md` con el ID del pendiente y el ID de quien lo acepta. **Recibió la ficha** quiere decir que hay una línea en `traspaso.md` con el ID del proyecto y el ID del receptor. Hoy ninguna de esas líneas existe: si nadie las escribe, la regla 2 estricta deja todo en «mantener».
 

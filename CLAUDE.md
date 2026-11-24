@@ -5,7 +5,7 @@ Este repositorio es el proyecto de cierre y traspaso del portafolio de proyectos
 ## Qué hay en cada archivo
 - `reglas.md` contiene las reglas de cierre y los criterios de la ficha de traspaso.
 - `proyecto.md` describe el problema, para quién es y cómo se mide.
-- `traspaso.md` es la nota para quien siga el trabajo: responde las seis preguntas del equipo con IA (responsabilidad, acceso, coordinación, calidad, visibilidad y riesgo).
+- `traspaso.md` es la nota para quien siga el trabajo, con cinco partes: qué cambió, qué quedó pendiente, qué decidimos y por qué, qué no hay que tocar y cuál es el siguiente paso.
 - `REVIEW.md` dice cómo se revisa un cambio.
 - `verificar.py` revisa que una propuesta no rompa las reglas duras.
 - `datos/` contiene las planillas en formato csv.
@@ -38,7 +38,7 @@ Este repositorio es el proyecto de cierre y traspaso del portafolio de proyectos
 - `hitos.csv` tiene los hitos de cada proyecto y si están hechos.
 - `pendientes.csv` tiene los pendientes de cada proyecto, con su prioridad y su clave de Jira.
 - `carpeta_drive.csv` lista los documentos que hay en la carpeta de cada proyecto.
-- `personas.csv` tiene una persona por fila, con su área y su estado.
+- `personas.csv` tiene una persona por fila, con su área y su estado. `fecha_estado` es la fecha de regreso si el estado es licencia, la de ingreso si es prueba y la de salida si es desvinculado; `fecha_salida` es el último día de quien se va.
 - Las áreas son Planificación, Operaciones, Finanzas, Comercial, TI, Personas e Innovación.
 - Los estados de un proyecto son en curso, por cerrar y pausado.
 - Los estados de un pendiente son abierto, bloqueado y cerrado. Las prioridades son alta, media y baja.
@@ -47,4 +47,4 @@ Este repositorio es el proyecto de cierre y traspaso del portafolio de proyectos
 ## Notas generales
 - Mantener este archivo actualizado.
 - Consultar los demás archivos para más detalle.
-- Al terminar, dejar el traspaso en `traspaso.md`, con sus seis preguntas.
+- Al terminar, dejar el traspaso en `traspaso.md`, con sus cinco partes.
